@@ -7,4 +7,9 @@ router.get('/', function (req, res, next) {
   res.render('index', { products: products });
 });
 
+/* GET fiveisprime page. */
+router.get('/fiveisprime', function (req, res, next) {
+  res.render('index', { products: products });
+});
+
 module.exports = router;
