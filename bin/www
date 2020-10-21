@@ -85,6 +85,6 @@ function onListening() {
   var addr = server.address();
   var bind = typeof addr === 'string'
     ?  addr
-    : '0.0.0.0:' + addr.port;
+    : 'http://0.0.0.0:' + addr.port;
   console.log('Listening on ' + bind);
 }
