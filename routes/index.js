@@ -7,4 +7,9 @@ router.get('/', function (req, res, next) {
   res.render('index', { products: products });
 });
 
+/* GET home page. */
+router.get('/about', function (req, res, next) {
+  res.send("An example Express app");
+});
+
 module.exports = router;
