@@ -7,4 +7,8 @@ router.get('/', function (req, res, next) {
   res.render('index', { products: products });
 });
 
+router.get('/fiveisprime', function (req, res) {
+  res.send('fiveisprime');
+});
+
 module.exports = router;
