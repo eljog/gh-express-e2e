@@ -9,7 +9,7 @@ router.get('/', function (req, res, next) {
 
 /* GET home page. */
 router.get('/about', function (req, res, next) {
-  res.send("An example Express app");
+  res.render("about");
 });
 
 module.exports = router;
