@@ -6,5 +6,8 @@ var products = require("../data/products.json");
 router.get('/', function (req, res, next) {
   res.render('index', { products: products });
 });
+router.get('/test', function (req, res, next) {
+  res.render('index', { products: products });
+});
 
 module.exports = router;
